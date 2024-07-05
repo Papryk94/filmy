@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[Osoba] (
     [OsobaID]       INT            IDENTITY (1, 1) NOT NULL,
-    [Imie]          CHAR (100)     NULL,
+    [Imie]          nvarCHAR (100)     NULL,
     [Nazwisko]      CHAR (100)     NULL,
     [KrajID]        INT            NULL,
     [DataUrodzenia] DATETIME       NULL,
